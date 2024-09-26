@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/*
+
+Typical Devices breakpoints ( 27/05/2024 )
+
+  Celular: 640px — 768px.
+  iPad e Tablets: 768px até 1024px.
+  Desktop: 1024px até 1280px.
+  Grandes Telas: Acima de 1280px.
+*/
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    body{
+        background-image: linear-gradient(to top, #025159,#F2856D,#F2B28D);
+    }
+    
+    section#login{
+        width: 80vw;
+    }
+
+    section#login > div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
+    body{
+        background-image: linear-gradient(to top, #025159,#F2856D,#F2B28D);
+    }
+    
+    section#login{
+        width: 1000px;
+    }
+
+    section#login > div#imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario{
+        float: left;
+        width: 50%;
+    }
+
+    div#formulario > h1{
+        font-size: 2em;
+    }
+
+    div#formulario > p{
+        font-size: 1.2em;
+    }
+}
+
